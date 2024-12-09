@@ -6,7 +6,7 @@
 Billet::Billet(int numero, const std::string& type, double prix, int train, const std::string& date)
     : numeroBillet(numero), typeClasse(type), prix(prix), numeroTrain(train), dateVoyage(date) {}
 
-// Methode pour afficher les d�tails du billet
+// Methode pour afficher les details du billet
 void Billet::afficherDetailsBillet() const {
     std::cout << "Billet " << numeroBillet << " | Classe : " << typeClasse
               << " | Prix : " << prix << " Euros | Train : " << numeroTrain
@@ -38,10 +38,10 @@ double Billet::calculerPrix(const std::string& villeDepart, const std::string& v
     double distance = (distances.find(cle) != distances.end()) ? distances[cle] : 0.0;
 
     if (distance == 0.0) {
-        std::cerr << "Erreur : Distance entre " << villeDepart << " et " << villeArrivee << " non d�finie.\n";
+        std::cerr << "Erreur : Distance entre " << villeDepart << " et " << villeArrivee << " non definie.\n";
         return -1.0; // Indique une erreur
     }
 
-    double prixBase = distance * 0.1; // Exemple : 10 centimes par kilom�tre
-    return (typeClasse == "Premi�re classe") ? prixBase * 1.5 : prixBase;
+    double prixBase = distance * 0.1; // Exemple : 10 centimes par kilometre
+    return (typeClasse == "Premiere classe") ? prixBase * 1.5 : prixBase;
 }

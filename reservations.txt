@@ -100,3 +100,4 @@
 1006 Deuxieme classe 25 9 2024-11-28
 1005 Premiere classe 50 4 2024-11-28
 1006 Deuxieme classe 80 2 2024-11-28
+1008 Premiere classe 180 10 2024-11-28

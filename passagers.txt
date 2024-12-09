@@ -1,4 +1,0 @@
-f f 5
-  Billet: 1005, Premiere classe, 50�, Train 4, 2024-11-28
-g g 6
-  Billet: 1006, Deuxieme classe, 80�, Train 2, 2024-11-28

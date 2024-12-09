@@ -150,7 +150,7 @@ void afficherCalendrier(const Calendrier& calendrier) {
     }
 }
 
-// Afficher l'historique des tickets pour un utilisateur sp�cifique
+// Afficher l'historique des tickets pour un utilisateur specifique
 
 void afficherHistoriqueUtilisateur(const std::string& cheminFichier, int idUtilisateur) {
     std::ifstream fichier(cheminFichier);
@@ -162,10 +162,12 @@ void afficherHistoriqueUtilisateur(const std::string& cheminFichier, int idUtili
     std::string ligne;
     bool trouve = false;
     std::cout << GREEN << "Historique des tickets pour l'utilisateur ID " << idUtilisateur << " :\n" << RESET;
+    int billet_idUtilisateur;
 
     while (std::getline(fichier, ligne)) {
         // Verifier si la ligne contient l'ID utilisateur (ID : 'idUtilisateur')
-        if (ligne.find("ID:" + std::to_string(idUtilisateur)) != std::string::npos) {
+        billet_idUtilisateur = idUtilisateur + 1000;
+        if (ligne.find(std::to_string(billet_idUtilisateur)) != std::string::npos) {
             std::cout << ligne << "\n";
             trouve = true;
         }
@@ -378,10 +380,10 @@ int main() {
             std::cout << "Entrez votre identifiant (numerique) : ";
             std::cin >> idUtilisateur;
             afficherHistoriqueUtilisateur("historique.txt", idUtilisateur);
-           } else if (choix == 6) {
-               int idUtilisateur;
-               std::cout << "Entrez votre identifiant (numerique) : ";
-               std::cin >> idUtilisateur;
+        } else if (choix == 6) {
+            int idUtilisateur;
+            std::cout << "Entrez votre identifiant (numerique) : ";
+            std::cin >> idUtilisateur;
             filtrerHistoriqueTickets("historique.txt");
         } else if (choix == 7) { // Quitter
             enregistrerPassagersDansFichier(passagers, "passagers.txt");
