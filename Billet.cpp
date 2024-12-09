@@ -21,7 +21,13 @@ double Billet::calculerPrix(const std::string& villeDepart, const std::string& v
         {"Lyon-Marseille", 300.0},
         {"Paris-Marseille", 800.0},
         {"Bordeaux-Toulouse", 250.0},
-
+        {"Paris-Bordeaux", 600.0},
+        {"Lille-Bordeaux", 1000.0},
+        {"Nice-Lyon", 700.0},
+        {"Strasbourg-Lille", 400.0},
+        {"Nantes-Marseille", 800.0},
+        {"Lyon-Nice", 600.0},
+        {"Toulouse-Paris", 1200.0}
     };
 
     std::string cle = villeDepart + "-" + villeArrivee;
