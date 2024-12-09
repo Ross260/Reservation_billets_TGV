@@ -1,0 +1,12 @@
+1 Paris Lyon 08:00 10:00 200
+2 Marseille Paris 09:00 13:00 150
+3 Lille Bordeaux 07:30 12:00 100
+4 Nice Lyon 10:00 14:00 180
+5 Strasbourg Lille 06:00 11:30 120
+6 Nantes Marseille 07:00 13:00 170
+7 Paris Marseille 07:30 11:30 220
+8 Lyon Nice 14:00 18:00 200
+9 Bordeaux Toulouse 06:30 08:00 130
+10 Toulouse Paris 12:00 18:00 140
+
+

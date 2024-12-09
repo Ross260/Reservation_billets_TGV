@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1732999576 source:d:\documents\ece\b2\programmation c++\projet\projet cpp\billet.cpp
+	"Billet.h"
+	<iostream>
+	<unordered_map>
+
+1733717145 d:\documents\ece\b2\programmation c++\projet\projet cpp\billet.h
+	<string>
+
+1733722481 source:d:\documents\ece\b2\programmation c++\projet\projet cpp\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<algorithm>
+	<fstream>
+	"Train.h"
+	"Billet.h"
+	"Passager.h"
+	"Calendrier.h"
+
+1733718121 d:\documents\ece\b2\programmation c++\projet\projet cpp\train.h
+	<string>
+	<iostream>
+
+1733717590 d:\documents\ece\b2\programmation c++\projet\projet cpp\passager.h
+	<string>
+	<vector>
+	"Billet.h"
+
+1732996342 d:\documents\ece\b2\programmation c++\projet\projet cpp\calendrier.h
+	<string>
+	<map>
+	<vector>
+	<iostream>
+	"Train.h"
+
+1733720989 source:d:\documents\ece\b2\programmation c++\projet\projet cpp\passager.cpp
+	"Passager.h"
+	<iostream>
+	<algorithm>
+	<fstream>
+
+1733065119 source:d:\documents\ece\b2\programmation c++\projet\projet cpp\reservation.cpp
+	"Reservation.h"
+	<iostream>
+	<fstream>
+
+1733064981 d:\documents\ece\b2\programmation c++\projet\projet cpp\reservation.h
+	"Passager.h"
+	"Billet.h"
+	"Train.h"
+
+1733718850 source:d:\documents\ece\b2\programmation c++\projet\projet cpp\train.cpp
+	"Train.h"
+
+1733615097 source:d:\documents\ece\b2\programmation c++\projet\projet cpp\calendrier.cpp
+	"Calendrier.h"
+
